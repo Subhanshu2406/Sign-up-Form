@@ -14,18 +14,22 @@
 
     <div class="container1">
             <form>
-                <label for="name" class="label">
+            <div class="input1">
+                <label for="name" class="label1">
                     Full Name:
-                    <input id="name" type="text" placeholder="Name" required maxlength="12">
+                    <input id="name" type="text" placeholder="Name" required maxlength="20">
                 </label>
                 <br>
-                <label for="email" class="label">
+                <label for="email" class="label2">
                     Email:
                     <input id="email" type="email" placeholder="Email" required>
                 </label>
+            </div>
 
+            <div class="input2">
                 <p>Have you taken a loan before?</p>
-
+            
+            <div class="radiogroup">
                 <label>
                     <input type="radio" name="question">
                     Yes
@@ -40,19 +44,27 @@
                     <input type="radio" name="question">
                     Maybe
                 </label>
+            </div>
+            </div>
+                
 
-                <label for="amount">
+                <div class="input3">
+                <label for="amount" class="amount">
                     Preferred Loan Amount
                     <br>
                     <input id="amount" type="number" placeholder="Amount" required>
                     <br>
                 </label>
+                </div>
 
-                <label>
+
+
+                <label class="checkbox">
                     <input type="checkbox" name="subscribe">
                     I have read the terms and conditions
                 </label>
-                <button type="submit">Submit</button>
+                <br>
+                <button type="submit" class="button">Submit</button>
             </form>
     </div>
 </body>
